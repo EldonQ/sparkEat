@@ -41,6 +41,16 @@ const STORES = [
   '麦当劳深圳南山科技园餐厅', '麦当劳深圳华强北餐厅', '麦当劳广州珠江新城餐厅',
 ];
 
+/* 门店近似坐标（GCJ-02，公开商业区位置，仅用于演示地图标记） */
+const STORE_COORDS = {
+  '麦当劳广州北亭广场餐厅': [113.3966, 23.0527],
+  '麦当劳广州大学城贝岗餐厅': [113.4093, 23.0466],
+  '麦当劳广州天河数码港餐厅': [113.3365, 23.1355],
+  '麦当劳深圳南山科技园餐厅': [113.9477, 22.5285],
+  '麦当劳深圳华强北餐厅': [114.0859, 22.541],
+  '麦当劳广州珠江新城餐厅': [113.3245, 23.1195],
+};
+
 function makeItems() {
   const items = [];
   const n = randInt(1, 3);
@@ -78,6 +88,7 @@ for (let i = 0; i < orderCount; i++) {
   const items = makeItems();
   const base = 12 + items.reduce((s, it) => s + it.quantity, 0) * randInt(9, 16);
   const total = (base + rng() * 6).toFixed(1);
+  const storeName = pick(STORES);
   orders.push({
     orderId: `1030${randInt(100000000000000, 999999999999999)}`,
     orderType: rng() < 0.85 ? '1' : '2',
@@ -85,7 +96,8 @@ for (let i = 0; i < orderCount; i++) {
     beType: '1',
     beCode: '',
     storeCode: String(1400000 + randInt(0, 500)),
-    storeName: pick(STORES),
+    storeName: storeName,
+    storeCoords: STORE_COORDS[storeName] || null,
     orderStatus: '订单已完成',
     orderProductList: items.map((it) => ({
       productCode: String(9900000000 + randInt(0, 99999)),

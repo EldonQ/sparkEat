@@ -7,6 +7,8 @@ import { loadDemoData, normalizeFromRaw, parseNutritionText, parseCampaignMarkdo
 import { aggregate, categorize, matchCalories } from '../src/aggregate.mjs';
 import { derivePersona } from '../src/persona.mjs';
 import { renderReport, renderMarkdown } from '../src/render.mjs';
+import { renderStory } from '../src/render-story.mjs';
+import { buildStoryData, aggregateFootprint, extractCity, hourPersona, calorieFun } from '../src/story-data.mjs';
 
 let passed = 0;
 function ok(name, fn) {
@@ -100,6 +102,52 @@ ok('边界：空数据不崩溃', () => {
   const p = derivePersona(m);
   const html = renderReport(m, p);
   assert.ok(html.includes('还没有订单'));
+});
+
+ok('足迹：城市提取与聚合', () => {
+  assert.equal(extractCity('麦当劳广州北亭广场餐厅'), '广州');
+  assert.equal(extractCity('麦当劳深圳南山科技园餐厅'), '深圳');
+  const fp = aggregateFootprint([
+    { storeName: '麦当劳广州北亭广场餐厅', storeCoords: [113.39, 23.05] },
+    { storeName: '麦当劳广州北亭广场餐厅', storeCoords: [113.39, 23.05] },
+    { storeName: '麦当劳深圳华强北餐厅', storeCoords: [114.08, 22.54] },
+  ]);
+  assert.equal(fp.cities.length, 2);
+  assert.equal(fp.cities[0].city, '广州');
+  assert.equal(fp.cities[0].count, 2);
+  assert.equal(fp.stores.length, 2);
+});
+
+ok('故事流：时段人格与热量类比', () => {
+  const hp = hourPersona(8, [0, 0, 0, 0, 0, 2, 3, 5, 8, 4, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]);
+  assert.ok(hp.label.length > 0);
+  const fun = calorieFun(67408);
+  assert.equal(fun[1].value, '16,852');
+});
+
+ok('故事流渲染：12 屏 + 动效钩子 + 地图占位', () => {
+  const raw = loadDemoData();
+  const m = aggregate(raw);
+  const p = derivePersona(m);
+  const story = buildStoryData(m, p, raw.orders);
+  const html = renderStory(story, {});
+  const screens = (html.match(/<section class="scr/g) || []).length;
+  assert.equal(screens, 12);
+  assert.ok(html.includes('IntersectionObserver'));
+  assert.ok(html.includes('_TMapSecurityConfig'));
+  assert.ok(html.includes('__WB_TMAP_SECRET__'));
+  assert.ok(html.includes('fp-fallback'));
+  assert.ok(html.includes('beforeprint'));
+  assert.ok(!html.includes('${'), '存在未替换的模板占位符');
+  assert.ok(!html.includes('undefined:'), '存在 undefined 数据泄漏');
+});
+
+ok('故事流渲染：内联 echarts 生效', () => {
+  const raw = loadDemoData();
+  const m = aggregate(raw);
+  const story = buildStoryData(m, derivePersona(m), raw.orders);
+  const html = renderStory(story, { echartsSource: 'var echarts={init:function(){}};' });
+  assert.ok(html.includes('var echarts={init'));
 });
 
 console.log(`\n${passed} 项通过`);

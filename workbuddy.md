@@ -47,9 +47,23 @@ WorkBuddy 在单次会话内完成全链路开发：
 
 ### 阶段四：验证与修复
 
-1. 冒烟测试首轮发现 2 个问题：分类器漏匹配「巨无霸」（"霸"非"堡"）、测试断言自身错误——均已修复，8/8 通过；
-2. 无头 Chrome 截图验证发现图表空白：根因是 CDN（cdnjs）在当前网络环境不可达。**决策：将 ECharts（1MB）内联进报告 HTML**，使报告完全自包含、离线可开——这对评委查看体验是关键改进；
-3. 用阶段二捕获的真实 MCP 响应验证 `--data` 通路（第三条数据通路），确认真实数据下全链路可用。
+1. 冒烟测试首轮发现 2 个问题：分类器漏匹配「巨无霸」（"霸"非"堡"）、测试断言自身错误——均已修复；
+2. 无头 Chrome 截图验证发现图表空白：根因是 CDN（cdnjs）在当前网络环境不可达。**决策：将 ECharts（1MB）内联进报告 HTML**，使报告完全自包含、离线可开；
+3. 用阶段二捕获的真实 MCP 响应验证 `--data` 通路，确认真实数据下全链路可用；
+4. 通过 git 凭据错位问题（存储 token 用户名标签 DawningAn 实际属于 EldonQ）解决后成功推送。
+
+### 阶段五：动效故事流升级（同日续）
+
+用户反馈静态看板「不够惊艳」，并给出高德 Loca（3D 数据可视化）、superdesign（动效落地页）、21st.dev（动效组件）三个参考。WorkBuddy 研究后判断：年度报告的正确形态是 Spotify Wrapped 式滚动故事流，遂实施升级：
+
+| 模块 | 文件 | 说明 |
+|---|---|---|
+| 故事流数据 | `src/story-data.mjs` | 12 屏文案数据、GCJ-02 城市坐标表（40+ 城市）、足迹聚合、时段人格、热量类比 |
+| 动效渲染器 | `src/render-story.mjs` | IntersectionObserver 入场、rAF 数字滚动、图表滚动触发、donut 旋转、TOP5 展开、作息波浪、称号盖章、shimmer 分享卡；章节配色渐进（含深色高潮屏）；`prefers-reduced-motion` 降级 |
+| 足迹地图 | 内嵌于 render-story | 腾讯地图 GL JS + `_TMapSecurityConfig` 代理模式（前端零密钥，合规）；无代理环境自动降级为城市足迹卡片；脉冲光环动画 |
+| PDF 导出 | `src/pdf.mjs` | `--pdf` 调用本机 Chrome/Edge 无头打印；同一 HTML 靠 `beforeprint` 强制终态实现分页 PDF |
+
+升级过程中的 QA 发现并修复：打印态数字停在 0（beforeprint 补 finalizeCounts）、图表动画未完成导致柱子缺失（printMode 关闭动画）、`peakHour` 漏传、`_TMapSecurityConfig` 配置脚本未发出。最终 12 页 PDF 全页视觉 QA 通过，冒烟测试扩至 12 项。
 
 ## 3. 关键工程决策
 

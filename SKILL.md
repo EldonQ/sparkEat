@@ -37,6 +37,13 @@ description: 麦门年鉴 — 拉取麦当劳中国 MCP 的订单、积分、优
 
 4. **展示结果**：向用户展示 HTML 报告路径与 Markdown 摘要，并用 2-3 句话总结其年度称号和最亮眼的数据。
 
+## 输出形态
+
+- `--mode story`（默认）：Wrapped 式动效故事流，全屏滚动浏览，适合直接分享 HTML
+- `--mode dashboard`：静态数据看板，信息密度高，适合快速查阅
+- `--mode both`：两种形态都生成（`*-story.html` 与 `*-dashboard.html`）
+- `--pdf`：额外导出 PDF（调用本机 Chrome/Edge 无头模式；失败时提示用户 Ctrl/Cmd+P 打印）
+
 ## 安全边界（必须遵守）
 
 - **只允许调用上表中的 8 个只读工具。**

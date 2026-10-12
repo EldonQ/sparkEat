@@ -1,22 +1,26 @@
 # 麦门年鉴 mcd-yearbook
 
-> 基于麦当劳中国 MCP 的个人年度饮食报告生成器 —— 把订单、积分、优惠券、抽奖、活动日历聚成一份可以晒的年度报告。
+> 基于麦当劳中国 MCP 的个人年度饮食报告生成器 —— Wrapped 式全屏动效故事流，把订单、积分、优惠券、抽奖、活动日历变成一份可以晒的年度报告。
 
-![年报预览](docs/screenshot-hero.png)
+![年报封面](docs/story-cover.png)
 
-[完整 demo 报告（单文件 HTML，可直接下载打开）](docs/demo-report.html) · [麦当劳程序员创意开发大赛参赛作品](#参赛信息)
+[完整 demo 故事流（单文件 HTML，可直接下载打开）](docs/demo-report.html) · [PDF 版 demo](docs/demo-report.pdf) · [麦当劳程序员创意开发大赛参赛作品](#参赛信息)
 
 ## 它是什么
 
-麦门年鉴拉取你在麦当劳的真实数据，自动生成一份杂志排版的年度报告：
+麦门年鉴拉取你在麦当劳的真实数据，生成一份**全屏滚动故事流**年报（12 屏）：数字滚动、图表随滚动展开、称号盖章揭晓、足迹地图、shimmer 分享卡。同时支持导出 PDF。
 
-- 你的**年度称号**（积分猎人 / 汉堡鉴赏家 / 早餐信徒 / 欧皇本皇……由数据算出，规则透明可复现）
+- 你的**年度称号**（积分猎人 / 汉堡鉴赏家 / 早八麦门人 / 欧皇本皇……由数据算出，规则透明可复现）
 - 消费轨迹、品类偏好、常驻餐品 TOP5、24 小时麦门作息
-- 热量成就：用官方营养数据逐项换算，告诉你这一年相当于吃了多少个巨无霸
+- 热量成就：官方营养数据逐项换算，巨无霸当量 + 碗米饭/层楼梯/慢跑小时类比
 - 省钱战绩、积分流水、抽奖幸运时刻、营销活动足迹
+- **麦门足迹地图**：腾讯地图上点亮你的门店与城市（WorkBuddy 预览环境显示真实地图，其余环境自动降级为城市卡片）
 - 一张适合截图分享的年度分享卡
 
 报告是**完全自包含的单文件 HTML**（ECharts 已内联），断网可开，直接扔给朋友就能看。
+
+![热量成就](docs/story-calories.png)
+![分享卡片](docs/story-share.png)
 
 ## 快速开始
 
@@ -36,7 +40,23 @@ node bin/mcd-yearbook.mjs --token $MCD_MCP_TOKEN --out my-yearbook.html --md
 node bin/mcd-yearbook.mjs --data mcd-raw.json --out my-yearbook.html --md
 ```
 
-用浏览器打开生成的 `my-yearbook.html` 即可。
+用浏览器打开生成的 `my-yearbook.html`，向下滚动开始浏览。
+
+### 输出形态
+
+```bash
+# 动效故事流（默认）
+node bin/mcd-yearbook.mjs --demo --mode story
+
+# 静态数据看板（经典仪表盘版）
+node bin/mcd-yearbook.mjs --demo --mode dashboard
+
+# 两种都输出
+node bin/mcd-yearbook.mjs --demo --mode both
+
+# 导出 PDF（调用本机 Chrome/Edge 无头模式；找不到浏览器时可用 Ctrl/Cmd+P 打印）
+node bin/mcd-yearbook.mjs --demo --pdf
+```
 
 ## 作为 WorkBuddy Skill 使用
 
@@ -58,7 +78,7 @@ git clone https://github.com/EldonQ/sparkEat.git ~/.workbuddy/skills/mcd-yearboo
 
 | 工具 | 贡献的报告章节 |
 |---|---|
-| `order-list` | 消费轨迹、品类偏好、常驻餐品、麦门作息 |
+| `order-list` | 消费轨迹、品类偏好、常驻餐品、麦门作息、足迹地图 |
 | `list-nutrition-foods` | 热量成就（官方营养表逐项换算） |
 | `query-my-account` | 积分流水 |
 | `query-my-coupons` / `available-coupons` | 省钱战绩 |
@@ -72,32 +92,37 @@ git clone https://github.com/EldonQ/sparkEat.git ~/.workbuddy/skills/mcd-yearboo
 - **零依赖**：纯 Node.js（>= 18），MCP 客户端是自己实现的 Streamable HTTP JSON-RPC 握手（initialize → initialized → tools/call），约 120 行
 - **多格式归一化**：实测麦当劳 MCP 的返回有 JSON、Markdown、类 CSV 文本三种形态，数据层分别解析（订单还会拆套餐子项 `comboItemList` 精确到单品）
 - **三条数据通路**：`--demo`（合成数据）/ `--token`（直连 MCP）/ `--data`（Skill 场景下 AI 代采）
-- **离线自包含**：ECharts 内联进 HTML，报告不依赖任何 CDN
-- **测试**：8 项冒烟测试（`npm test`），覆盖解析、聚合、人格、渲染与空数据边界
+- **动效故事流**：IntersectionObserver 入场、rAF 数字滚动、图表滚动触发、称号盖章动画、`prefers-reduced-motion` 降级
+- **足迹地图**：腾讯地图 GL JS + WorkBuddy 安全代理（前端零密钥），无代理环境自动降级为城市足迹卡片
+- **一份 HTML，两种形态**：屏幕滚动浏览；打印/PDF 时 `beforeprint` 强制终态、分页输出、地图切卡片
+- **测试**：12 项冒烟测试（`npm test`），覆盖解析、聚合、人格、足迹、故事流渲染与空数据边界
 
 ## 项目结构
 
 ```
-├── bin/mcd-yearbook.mjs    CLI 入口
+├── bin/mcd-yearbook.mjs     CLI 入口（--mode / --pdf / --demo / --token / --data）
 ├── src/
-│   ├── mcp-client.mjs      MCP Streamable HTTP 客户端
-│   ├── collect.mjs         三通路数据采集与归一化
-│   ├── aggregate.mjs       八维统计聚合引擎
-│   ├── persona.mjs         麦门称号算法
-│   └── render.mjs          ECharts 年报渲染器
+│   ├── mcp-client.mjs       MCP Streamable HTTP 客户端
+│   ├── collect.mjs          三通路数据采集与归一化
+│   ├── aggregate.mjs        八维统计聚合引擎
+│   ├── persona.mjs          麦门称号算法
+│   ├── story-data.mjs       故事流数据 + 城市坐标表 + 足迹聚合
+│   ├── render-story.mjs     Wrapped 动效故事流渲染器（含足迹地图模块）
+│   ├── render.mjs           静态看板渲染器
+│   └── pdf.mjs              PDF 导出（无头 Chrome/Edge）
 ├── scripts/make-fixture.mjs 合成演示数据生成器（确定性种子）
-├── fixtures/               演示数据 + 官方营养表
-├── web/echarts.min.js      内联用 ECharts 5.5.1
-├── test/smoke.mjs          冒烟测试
-├── docs/demo-report.html   合成数据完整 demo
-└── SKILL.md                WorkBuddy Skill 定义
+├── fixtures/                演示数据 + 官方营养表
+├── web/echarts.min.js       内联用 ECharts 5.5.1
+├── test/smoke.mjs           冒烟测试
+├── docs/                    demo 报告（HTML/PDF）与截图
+└── SKILL.md                 WorkBuddy Skill 定义
 ```
 
 ## 数据与隐私
 
 - 只读采集，不落库不上传，报告仅在本地生成
 - 账号 ID 在报告中脱敏为 `****后4位`
-- 仓库内只有环境变量占位符配置（`mcp-config.example.json`），无任何真实 Token
+- 仓库内只有环境变量占位符配置（`mcp-config.example.json`），无任何真实密钥；足迹地图前端零密钥
 - `fixtures/` 为合成数据，不含真实用户信息
 
 ## 参赛信息

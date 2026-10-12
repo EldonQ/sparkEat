@@ -174,6 +174,7 @@ export function loadDemoData() {
       orderId: o.orderId,
       createTime: o.createTime,
       storeName: o.storeName,
+      storeCoords: o.storeCoords || null,
       totalAmount: n(o.realTotalAmount),
       items: (o.orderProductList || []).flatMap((p) =>
         (p.comboItemList || []).map((c) => ({ name: c.name, quantity: n(c.quantity) || 1 }))),

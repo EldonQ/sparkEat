@@ -15,13 +15,17 @@
   },
   "orders": [
     {
-      "orderId": "1030734647345333360",
+      "orderId": "1030733605535328388",
       "orderType": "1",
       "createTime": "2026-10-07 17:48:19",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400165",
-      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCode": "1400078",
+      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCoords": [
+        114.0859,
+        22.541
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -40,13 +44,17 @@
       "realTotalAmount": "28.0"
     },
     {
-      "orderId": "1030313471164717338",
+      "orderId": "1030439075487875379",
       "orderType": "1",
       "createTime": "2026-09-28 08:30:15",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400172",
-      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCode": "1400224",
+      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCoords": [
+        113.4093,
+        23.0466
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -119,13 +127,17 @@
       "realTotalAmount": "93.4"
     },
     {
-      "orderId": "1030545815640990622",
+      "orderId": "1030601045377086848",
       "orderType": "1",
       "createTime": "2026-09-21 18:35:01",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400139",
-      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCode": "1400159",
+      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCoords": [
+        113.3365,
+        23.1355
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -144,13 +156,17 @@
       "realTotalAmount": "32.6"
     },
     {
-      "orderId": "1030393510812218301",
-      "orderType": "1",
+      "orderId": "1030704098402871750",
+      "orderType": "2",
       "createTime": "2026-09-13 12:15:20",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400479",
-      "storeName": "麦当劳深圳南山科技园餐厅",
+      "storeCode": "1400255",
+      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCoords": [
+        113.4093,
+        23.0466
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -191,13 +207,17 @@
       "realTotalAmount": "42.5"
     },
     {
-      "orderId": "1030953920233761891",
+      "orderId": "1030427893679519183",
       "orderType": "1",
       "createTime": "2026-09-03 17:05:47",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400127",
-      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCode": "1400007",
+      "storeName": "麦当劳广州珠江新城餐厅",
+      "storeCoords": [
+        113.3245,
+        23.1195
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -270,13 +290,17 @@
       "realTotalAmount": "58.4"
     },
     {
-      "orderId": "1030416457815258763",
+      "orderId": "1030915819188160821",
       "orderType": "2",
       "createTime": "2026-08-29 12:10:18",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400491",
-      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCode": "1400148",
+      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCoords": [
+        113.3365,
+        23.1355
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -317,13 +341,17 @@
       "realTotalAmount": "44.8"
     },
     {
-      "orderId": "1030901102095050737",
-      "orderType": "2",
+      "orderId": "1030879464582912623",
+      "orderType": "1",
       "createTime": "2026-08-18 12:07:15",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400218",
-      "storeName": "麦当劳深圳南山科技园餐厅",
+      "storeCode": "1400293",
+      "storeName": "麦当劳广州珠江新城餐厅",
+      "storeCoords": [
+        113.3245,
+        23.1195
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -396,13 +424,17 @@
       "realTotalAmount": "44.4"
     },
     {
-      "orderId": "1030977253786078654",
+      "orderId": "1030813486118614673",
       "orderType": "1",
       "createTime": "2026-08-13 08:18:45",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400398",
-      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCode": "1400084",
+      "storeName": "麦当劳广州珠江新城餐厅",
+      "storeCoords": [
+        113.3245,
+        23.1195
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -475,13 +507,17 @@
       "realTotalAmount": "64.0"
     },
     {
-      "orderId": "1030780462985648773",
-      "orderType": "2",
+      "orderId": "1030890832389262504",
+      "orderType": "1",
       "createTime": "2026-08-03 19:44:35",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400126",
-      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCode": "1400184",
+      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCoords": [
+        114.0859,
+        22.541
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -500,13 +536,17 @@
       "realTotalAmount": "28.5"
     },
     {
-      "orderId": "1030246166297770105",
+      "orderId": "1030842680721334181",
       "orderType": "1",
       "createTime": "2026-07-27 21:17:19",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400066",
-      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCode": "1400189",
+      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCoords": [
+        113.3966,
+        23.0527
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -525,13 +565,17 @@
       "realTotalAmount": "38.5"
     },
     {
-      "orderId": "1030887482188036665",
+      "orderId": "1030408240007329732",
       "orderType": "1",
       "createTime": "2026-07-21 13:18:49",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400317",
-      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCode": "1400116",
+      "storeName": "麦当劳广州珠江新城餐厅",
+      "storeCoords": [
+        113.3245,
+        23.1195
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -572,13 +616,17 @@
       "realTotalAmount": "46.6"
     },
     {
-      "orderId": "1030816413169098086",
+      "orderId": "1030121366891707293",
       "orderType": "1",
       "createTime": "2026-07-13 20:08:18",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400179",
-      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCode": "1400212",
+      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCoords": [
+        114.0859,
+        22.541
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -619,13 +667,17 @@
       "realTotalAmount": "34.7"
     },
     {
-      "orderId": "1030790474771265871",
-      "orderType": "2",
+      "orderId": "1030881232233461923",
+      "orderType": "1",
       "createTime": "2026-07-04 08:27:16",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400336",
-      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCode": "1400159",
+      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCoords": [
+        114.0859,
+        22.541
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -698,13 +750,17 @@
       "realTotalAmount": "60.9"
     },
     {
-      "orderId": "1030729516488616354",
+      "orderId": "1030702383270184509",
       "orderType": "1",
       "createTime": "2026-06-25 20:14:30",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400386",
-      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCode": "1400080",
+      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCoords": [
+        114.0859,
+        22.541
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -723,13 +779,17 @@
       "realTotalAmount": "24.3"
     },
     {
-      "orderId": "1030236840156652033",
+      "orderId": "1030305530898156575",
       "orderType": "1",
       "createTime": "2026-06-20 18:59:47",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400384",
-      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCode": "1400110",
+      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCoords": [
+        113.3966,
+        23.0527
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -770,13 +830,17 @@
       "realTotalAmount": "47.1"
     },
     {
-      "orderId": "1030124308646563440",
+      "orderId": "1030106564309261739",
       "orderType": "1",
       "createTime": "2026-06-13 17:31:25",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400188",
+      "storeCode": "1400004",
       "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCoords": [
+        113.3966,
+        23.0527
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -817,13 +881,17 @@
       "realTotalAmount": "45.6"
     },
     {
-      "orderId": "1030940220959135331",
+      "orderId": "1030992740039923228",
       "orderType": "2",
       "createTime": "2026-06-04 12:48:15",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400454",
-      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCode": "1400095",
+      "storeName": "麦当劳广州珠江新城餐厅",
+      "storeCoords": [
+        113.3245,
+        23.1195
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -896,13 +964,17 @@
       "realTotalAmount": "61.0"
     },
     {
-      "orderId": "1030213456828612834",
+      "orderId": "1030815261307847686",
       "orderType": "1",
       "createTime": "2026-05-26 17:45:47",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400368",
-      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCode": "1400126",
+      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCoords": [
+        113.3966,
+        23.0527
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -975,13 +1047,17 @@
       "realTotalAmount": "48.0"
     },
     {
-      "orderId": "1030503840174642391",
+      "orderId": "1030649648719583638",
       "orderType": "1",
       "createTime": "2026-05-17 09:14:57",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400366",
-      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCode": "1400061",
+      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCoords": [
+        113.3365,
+        23.1355
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1054,13 +1130,17 @@
       "realTotalAmount": "42.2"
     },
     {
-      "orderId": "1030412566367513500",
+      "orderId": "1030117497551441192",
       "orderType": "1",
       "createTime": "2026-05-11 17:51:26",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400409",
-      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCode": "1400340",
+      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCoords": [
+        113.3365,
+        23.1355
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1101,13 +1181,17 @@
       "realTotalAmount": "33.2"
     },
     {
-      "orderId": "1030586520437849685",
-      "orderType": "1",
+      "orderId": "1030393386270967312",
+      "orderType": "2",
       "createTime": "2026-05-04 17:12:17",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400486",
-      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCode": "1400216",
+      "storeName": "麦当劳深圳南山科技园餐厅",
+      "storeCoords": [
+        113.9477,
+        22.5285
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1180,13 +1264,17 @@
       "realTotalAmount": "57.8"
     },
     {
-      "orderId": "1030712858147779479",
+      "orderId": "1030747862940770573",
       "orderType": "1",
       "createTime": "2026-04-24 08:07:14",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400262",
-      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCode": "1400171",
+      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCoords": [
+        114.0859,
+        22.541
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1205,13 +1293,17 @@
       "realTotalAmount": "44.1"
     },
     {
-      "orderId": "1030654105161456391",
+      "orderId": "1030850117357680574",
       "orderType": "1",
       "createTime": "2026-04-18 18:30:49",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400312",
-      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCode": "1400213",
+      "storeName": "麦当劳深圳南山科技园餐厅",
+      "storeCoords": [
+        113.9477,
+        22.5285
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1230,13 +1322,17 @@
       "realTotalAmount": "25.1"
     },
     {
-      "orderId": "1030710429543303325",
-      "orderType": "1",
+      "orderId": "1030396607334306463",
+      "orderType": "2",
       "createTime": "2026-04-12 12:25:45",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400496",
-      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCode": "1400164",
+      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCoords": [
+        114.0859,
+        22.541
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1277,13 +1373,17 @@
       "realTotalAmount": "34.2"
     },
     {
-      "orderId": "1030341280218516476",
-      "orderType": "2",
+      "orderId": "1030905677539622411",
+      "orderType": "1",
       "createTime": "2026-04-04 17:22:39",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400116",
-      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCode": "1400011",
+      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCoords": [
+        113.4093,
+        23.0466
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1356,13 +1456,17 @@
       "realTotalAmount": "55.6"
     },
     {
-      "orderId": "1030847971253516152",
+      "orderId": "1030231757730362005",
       "orderType": "1",
       "createTime": "2026-03-27 09:59:27",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400011",
+      "storeCode": "1400398",
       "storeName": "麦当劳深圳华强北餐厅",
+      "storeCoords": [
+        114.0859,
+        22.541
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1381,13 +1485,17 @@
       "realTotalAmount": "25.7"
     },
     {
-      "orderId": "1030348241248494014",
+      "orderId": "1030413302365248091",
       "orderType": "1",
       "createTime": "2026-03-17 13:34:15",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400284",
-      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCode": "1400409",
+      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCoords": [
+        113.4093,
+        23.0466
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1428,13 +1536,17 @@
       "realTotalAmount": "35.9"
     },
     {
-      "orderId": "1030298299163719639",
+      "orderId": "1030723598945443518",
       "orderType": "1",
       "createTime": "2026-03-09 21:30:02",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400076",
-      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCode": "1400030",
+      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCoords": [
+        113.4093,
+        23.0466
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1475,13 +1587,17 @@
       "realTotalAmount": "44.7"
     },
     {
-      "orderId": "1030248611979116685",
+      "orderId": "1030699118598317727",
       "orderType": "1",
       "createTime": "2026-03-02 13:54:10",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400085",
-      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCode": "1400381",
+      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCoords": [
+        113.3966,
+        23.0527
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1554,13 +1670,17 @@
       "realTotalAmount": "79.3"
     },
     {
-      "orderId": "1030217536353273317",
+      "orderId": "1030735389864398166",
       "orderType": "1",
       "createTime": "2026-02-22 17:05:34",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400051",
-      "storeName": "麦当劳广州珠江新城餐厅",
+      "storeCode": "1400457",
+      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCoords": [
+        113.3966,
+        23.0527
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1601,13 +1721,17 @@
       "realTotalAmount": "45.1"
     },
     {
-      "orderId": "1030650029931892640",
+      "orderId": "1030617427550768479",
       "orderType": "1",
       "createTime": "2026-02-13 15:45:32",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400009",
-      "storeName": "麦当劳广州珠江新城餐厅",
+      "storeCode": "1400455",
+      "storeName": "麦当劳深圳南山科技园餐厅",
+      "storeCoords": [
+        113.9477,
+        22.5285
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1626,13 +1750,17 @@
       "realTotalAmount": "24.6"
     },
     {
-      "orderId": "1030469114344380795",
+      "orderId": "1030623231645929627",
       "orderType": "1",
       "createTime": "2026-02-08 20:46:17",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400012",
+      "storeCode": "1400221",
       "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCoords": [
+        113.3365,
+        23.1355
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1651,13 +1779,17 @@
       "realTotalAmount": "29.7"
     },
     {
-      "orderId": "1030839697715779766",
+      "orderId": "1030496129012946039",
       "orderType": "1",
       "createTime": "2026-01-29 08:19:24",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400283",
+      "storeCode": "1400391",
       "storeName": "麦当劳深圳华强北餐厅",
+      "storeCoords": [
+        114.0859,
+        22.541
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1730,13 +1862,17 @@
       "realTotalAmount": "43.9"
     },
     {
-      "orderId": "1030773771978053264",
+      "orderId": "1030516483954759314",
       "orderType": "1",
       "createTime": "2026-01-21 08:09:30",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400174",
-      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCode": "1400206",
+      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCoords": [
+        114.0859,
+        22.541
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1777,13 +1913,17 @@
       "realTotalAmount": "38.3"
     },
     {
-      "orderId": "1030610616141115315",
-      "orderType": "1",
+      "orderId": "1030398453359631821",
+      "orderType": "2",
       "createTime": "2026-01-16 11:52:25",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400426",
+      "storeCode": "1400295",
       "storeName": "麦当劳深圳南山科技园餐厅",
+      "storeCoords": [
+        113.9477,
+        22.5285
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1824,13 +1964,17 @@
       "realTotalAmount": "31.9"
     },
     {
-      "orderId": "1030847413196251727",
-      "orderType": "2",
+      "orderId": "1030978355484572239",
+      "orderType": "1",
       "createTime": "2026-01-06 12:35:02",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400293",
-      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCode": "1400241",
+      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCoords": [
+        114.0859,
+        22.541
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1871,13 +2015,17 @@
       "realTotalAmount": "33.0"
     },
     {
-      "orderId": "1030294854858028702",
-      "orderType": "1",
+      "orderId": "1030477550224494189",
+      "orderType": "2",
       "createTime": "2026-01-01 21:31:55",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400484",
-      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCode": "1400074",
+      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCoords": [
+        113.4093,
+        23.0466
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1918,13 +2066,17 @@
       "realTotalAmount": "41.1"
     },
     {
-      "orderId": "1030333129011094570",
-      "orderType": "1",
+      "orderId": "1030323552205809392",
+      "orderType": "2",
       "createTime": "2025-12-21 18:40:50",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400455",
-      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCode": "1400051",
+      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCoords": [
+        113.4093,
+        23.0466
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1943,13 +2095,17 @@
       "realTotalAmount": "29.1"
     },
     {
-      "orderId": "1030673280250653624",
+      "orderId": "1030793177370936609",
       "orderType": "1",
       "createTime": "2025-12-15 12:20:34",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400138",
-      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCode": "1400228",
+      "storeName": "麦当劳深圳南山科技园餐厅",
+      "storeCoords": [
+        113.9477,
+        22.5285
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1968,13 +2124,17 @@
       "realTotalAmount": "31.2"
     },
     {
-      "orderId": "1030405298716621473",
+      "orderId": "1030939818069548346",
       "orderType": "2",
       "createTime": "2025-12-06 08:44:31",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400487",
-      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCode": "1400373",
+      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCoords": [
+        113.3365,
+        23.1355
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -1993,13 +2153,17 @@
       "realTotalAmount": "23.8"
     },
     {
-      "orderId": "1030295851260749623",
+      "orderId": "1030390194022096693",
       "orderType": "1",
       "createTime": "2025-11-29 20:32:46",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400407",
-      "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCode": "1400197",
+      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCoords": [
+        113.4093,
+        23.0466
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -2072,13 +2236,17 @@
       "realTotalAmount": "80.0"
     },
     {
-      "orderId": "1030602061177836731",
+      "orderId": "1030381225081859156",
       "orderType": "1",
       "createTime": "2025-11-21 08:08:16",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400204",
-      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCode": "1400403",
+      "storeName": "麦当劳深圳南山科技园餐厅",
+      "storeCoords": [
+        113.9477,
+        22.5285
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -2119,13 +2287,17 @@
       "realTotalAmount": "42.6"
     },
     {
-      "orderId": "1030497166920336894",
+      "orderId": "1030391462341090664",
       "orderType": "1",
       "createTime": "2025-11-14 12:05:18",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400413",
+      "storeCode": "1400228",
       "storeName": "麦当劳广州天河数码港餐厅",
+      "storeCoords": [
+        113.3365,
+        23.1355
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -2198,13 +2370,17 @@
       "realTotalAmount": "85.9"
     },
     {
-      "orderId": "1030627764476276934",
+      "orderId": "1030314873060234822",
       "orderType": "1",
       "createTime": "2025-11-05 22:08:39",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400308",
-      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCode": "1400394",
+      "storeName": "麦当劳深圳南山科技园餐厅",
+      "storeCoords": [
+        113.9477,
+        22.5285
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -2223,13 +2399,17 @@
       "realTotalAmount": "43.8"
     },
     {
-      "orderId": "1030274475412140600",
+      "orderId": "1030245364165771752",
       "orderType": "1",
       "createTime": "2025-10-29 18:31:49",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400348",
-      "storeName": "麦当劳深圳南山科技园餐厅",
+      "storeCode": "1400271",
+      "storeName": "麦当劳广州大学城贝岗餐厅",
+      "storeCoords": [
+        113.4093,
+        23.0466
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -2270,13 +2450,17 @@
       "realTotalAmount": "44.3"
     },
     {
-      "orderId": "1030234184025833383",
+      "orderId": "1030109908293001353",
       "orderType": "1",
       "createTime": "2025-10-20 08:49:30",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400388",
-      "storeName": "麦当劳深圳华强北餐厅",
+      "storeCode": "1400401",
+      "storeName": "麦当劳广州北亭广场餐厅",
+      "storeCoords": [
+        113.3966,
+        23.0527
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
@@ -2349,13 +2533,17 @@
       "realTotalAmount": "68.4"
     },
     {
-      "orderId": "1030601352115138433",
+      "orderId": "1030611654206505045",
       "orderType": "1",
       "createTime": "2025-10-14 08:21:00",
       "beType": "1",
       "beCode": "",
-      "storeCode": "1400216",
-      "storeName": "麦当劳广州珠江新城餐厅",
+      "storeCode": "1400462",
+      "storeName": "麦当劳深圳南山科技园餐厅",
+      "storeCoords": [
+        113.9477,
+        22.5285
+      ],
       "orderStatus": "订单已完成",
       "orderProductList": [
         {
