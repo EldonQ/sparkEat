@@ -1,0 +1,1232 @@
+[
+ {
+  "name": "猪柳麦满分",
+  "kcal": 308,
+  "kj": 1288,
+  "protein": 16,
+  "fat": 16,
+  "carb": 24,
+  "sodium": 781,
+  "calcium": 213
+ },
+ {
+  "name": "猪柳蛋麦满分",
+  "kcal": 387,
+  "kj": 1618,
+  "protein": 23,
+  "fat": 21,
+  "carb": 25,
+  "sodium": 846,
+  "calcium": 243
+ },
+ {
+  "name": "烟肉蛋麦满分",
+  "kcal": 260,
+  "kj": 1089,
+  "protein": 16,
+  "fat": 10,
+  "carb": 24,
+  "sodium": 483,
+  "calcium": 238
+ },
+ {
+  "name": "火腿扒麦满分",
+  "kcal": 261,
+  "kj": 1092,
+  "protein": 14,
+  "fat": 12,
+  "carb": 24,
+  "sodium": 608,
+  "calcium": 131
+ },
+ {
+  "name": "中薯条",
+  "kcal": 289,
+  "kj": 1210,
+  "protein": 4,
+  "fat": 12,
+  "carb": 38,
+  "sodium": 165,
+  "calcium": 18
+ },
+ {
+  "name": "大薯条",
+  "kcal": 379,
+  "kj": 1587,
+  "protein": 6,
+  "fat": 16,
+  "carb": 50,
+  "sodium": 216,
+  "calcium": 23
+ },
+ {
+  "name": "小薯条",
+  "kcal": 210,
+  "kj": 877,
+  "protein": 3,
+  "fat": 9,
+  "carb": 28,
+  "sodium": 120,
+  "calcium": 13
+ },
+ {
+  "name": "迷你薯条",
+  "kcal": 106,
+  "kj": 444,
+  "protein": 2,
+  "fat": 4,
+  "carb": 14,
+  "sodium": 61,
+  "calcium": 6
+ },
+ {
+  "name": "圆筒冰淇淋",
+  "kcal": 93,
+  "kj": 391,
+  "protein": 2,
+  "fat": 3,
+  "carb": 14,
+  "sodium": 36,
+  "calcium": 77
+ },
+ {
+  "name": "麦乐鸡5块",
+  "kcal": 213,
+  "kj": 890,
+  "protein": 12,
+  "fat": 12,
+  "carb": 13,
+  "sodium": 422,
+  "calcium": 9
+ },
+ {
+  "name": "大杯玉米杯",
+  "kcal": 87,
+  "kj": 365,
+  "protein": 4,
+  "fat": 1,
+  "carb": 12,
+  "sodium": 2,
+  "calcium": 10
+ },
+ {
+  "name": "小杯玉米杯",
+  "kcal": 53,
+  "kj": 223,
+  "protein": 1,
+  "fat": 6,
+  "carb": 12,
+  "sodium": 1,
+  "calcium": 6
+ },
+ {
+  "name": "麦辣鸡翅-2块",
+  "kcal": 224,
+  "kj": 937,
+  "protein": 13,
+  "fat": 15,
+  "carb": 9,
+  "sodium": 537,
+  "calcium": 13
+ },
+ {
+  "name": "朱古力新地",
+  "kcal": 282,
+  "kj": 1178,
+  "protein": 5,
+  "fat": 9,
+  "carb": 44,
+  "sodium": 126,
+  "calcium": 182
+ },
+ {
+  "name": "草莓新地",
+  "kcal": 245,
+  "kj": 1027,
+  "protein": 4,
+  "fat": 6,
+  "carb": 43,
+  "sodium": 84,
+  "calcium": 158
+ },
+ {
+  "name": "奥利奥麦旋风",
+  "kcal": 266,
+  "kj": 1115,
+  "protein": 5,
+  "fat": 9,
+  "carb": 40,
+  "sodium": 116,
+  "calcium": 185
+ },
+ {
+  "name": "草莓麦旋风",
+  "kcal": 295,
+  "kj": 1234,
+  "protein": 6,
+  "fat": 9,
+  "carb": 47,
+  "sodium": 122,
+  "calcium": 186
+ },
+ {
+  "name": "香芋派",
+  "kcal": 232,
+  "kj": 971,
+  "protein": 2,
+  "fat": 12,
+  "carb": 28,
+  "sodium": 159,
+  "calcium": 7
+ },
+ {
+  "name": "菠萝派",
+  "kcal": 221,
+  "kj": 925,
+  "protein": 2,
+  "fat": 11,
+  "carb": 27,
+  "sodium": 147,
+  "calcium": 5
+ },
+ {
+  "name": "大脆鸡扒麦满分",
+  "kcal": 361,
+  "kj": 1510,
+  "protein": 16,
+  "fat": 17,
+  "carb": 35,
+  "sodium": 804,
+  "calcium": 130
+ },
+ {
+  "name": "原味板烧鸡腿麦满分",
+  "kcal": 246,
+  "kj": 1029,
+  "protein": 15,
+  "fat": 9,
+  "carb": 25,
+  "sodium": 611,
+  "calcium": 133
+ },
+ {
+  "name": "双层原味板烧鸡腿麦满分",
+  "kcal": 355,
+  "kj": 1486,
+  "protein": 23,
+  "fat": 17,
+  "carb": 27,
+  "sodium": 984,
+  "calcium": 138
+ },
+ {
+  "name": "吉士汉堡包",
+  "kcal": 294,
+  "kj": 1231,
+  "protein": 16,
+  "fat": 12,
+  "carb": 30,
+  "sodium": 673,
+  "calcium": 144
+ },
+ {
+  "name": "双层吉士汉堡",
+  "kcal": 429,
+  "kj": 1796,
+  "protein": 27,
+  "fat": 22,
+  "carb": 31,
+  "sodium": 1017,
+  "calcium": 232
+ },
+ {
+  "name": "麦香鸡",
+  "kcal": 369,
+  "kj": 1546,
+  "protein": 15,
+  "fat": 17,
+  "carb": 39,
+  "sodium": 731,
+  "calcium": 73
+ },
+ {
+  "name": "麦香鱼",
+  "kcal": 325,
+  "kj": 1359,
+  "protein": 16,
+  "fat": 13,
+  "carb": 35,
+  "sodium": 556,
+  "calcium": 99
+ },
+ {
+  "name": "麦辣鸡腿汉堡",
+  "kcal": 485,
+  "kj": 2029,
+  "protein": 24,
+  "fat": 24,
+  "carb": 42,
+  "sodium": 1208,
+  "calcium": 154
+ },
+ {
+  "name": "板烧鸡腿堡",
+  "kcal": 391,
+  "kj": 1638,
+  "protein": 23,
+  "fat": 17,
+  "carb": 35,
+  "sodium": 1041,
+  "calcium": 93
+ },
+ {
+  "name": "巨无霸",
+  "kcal": 513,
+  "kj": 2146,
+  "protein": 27,
+  "fat": 26,
+  "carb": 42,
+  "sodium": 961,
+  "calcium": 171
+ },
+ {
+  "name": "培根蔬萃双层牛堡",
+  "kcal": 442,
+  "kj": 1850,
+  "protein": 24,
+  "fat": 23,
+  "carb": 34,
+  "sodium": 728,
+  "calcium": 73
+ },
+ {
+  "name": "可乐中杯",
+  "kcal": 147,
+  "kj": 616,
+  "protein": 0,
+  "fat": 0,
+  "carb": 36,
+  "sodium": 0,
+  "calcium": 10
+ },
+ {
+  "name": "可乐大杯",
+  "kcal": 224,
+  "kj": 936,
+  "protein": 0,
+  "fat": 0,
+  "carb": 55,
+  "sodium": 0,
+  "calcium": 15
+ },
+ {
+  "name": "可乐小杯",
+  "kcal": 107,
+  "kj": 446,
+  "protein": 0,
+  "fat": 0,
+  "carb": 26,
+  "sodium": 0,
+  "calcium": 7
+ },
+ {
+  "name": "雪碧中杯",
+  "kcal": 105,
+  "kj": 440,
+  "protein": 0,
+  "fat": 0,
+  "carb": 26,
+  "sodium": 29,
+  "calcium": 0
+ },
+ {
+  "name": "雪碧大杯",
+  "kcal": 160,
+  "kj": 669,
+  "protein": 0,
+  "fat": 0,
+  "carb": 39,
+  "sodium": 45,
+  "calcium": 0
+ },
+ {
+  "name": "雪碧小杯",
+  "kcal": 76,
+  "kj": 319,
+  "protein": 0,
+  "fat": 0,
+  "carb": 19,
+  "sodium": 21,
+  "calcium": 0
+ },
+ {
+  "name": "无糖可口可乐中杯",
+  "kcal": 0,
+  "kj": 0,
+  "protein": 0,
+  "fat": 0,
+  "carb": 1,
+  "sodium": 35,
+  "calcium": 0
+ },
+ {
+  "name": "无糖可口可乐大杯",
+  "kcal": 0,
+  "kj": 0,
+  "protein": 0,
+  "fat": 0,
+  "carb": 1,
+  "sodium": 53,
+  "calcium": 0
+ },
+ {
+  "name": "大杯鲜萃咖啡",
+  "kcal": 13,
+  "kj": 54,
+  "protein": 1,
+  "fat": 0,
+  "carb": 0,
+  "sodium": 3,
+  "calcium": 8
+ },
+ {
+  "name": "小杯鲜萃咖啡",
+  "kcal": 15,
+  "kj": 63,
+  "protein": 3,
+  "fat": 2,
+  "carb": 6,
+  "sodium": 1,
+  "calcium": 6
+ },
+ {
+  "name": "锡兰红茶",
+  "kcal": 2,
+  "kj": 8,
+  "protein": 0,
+  "fat": 0,
+  "carb": 0,
+  "sodium": 0,
+  "calcium": 5
+ },
+ {
+  "name": "热朱古力",
+  "kcal": 125,
+  "kj": 525,
+  "protein": 2,
+  "fat": 2,
+  "carb": 22,
+  "sodium": 107,
+  "calcium": 36
+ },
+ {
+  "name": "纯牛奶（盒装）",
+  "kcal": 129,
+  "kj": 541,
+  "protein": 7,
+  "fat": 7,
+  "carb": 10,
+  "sodium": 73,
+  "calcium": 231
+ },
+ {
+  "name": "麦旋酷阳光橙",
+  "kcal": 228,
+  "kj": 955,
+  "protein": 1,
+  "fat": 2,
+  "carb": 50,
+  "sodium": 77,
+  "calcium": 52
+ },
+ {
+  "name": "浓缩咖啡",
+  "kcal": 2,
+  "kj": 54,
+  "protein": 1,
+  "fat": 0,
+  "carb": 0,
+  "sodium": 0,
+  "calcium": 5
+ },
+ {
+  "name": "那么大鸡排",
+  "kcal": 385,
+  "kj": 1612,
+  "protein": 24,
+  "fat": 21,
+  "carb": 24,
+  "sodium": 996,
+  "calcium": 13
+ },
+ {
+  "name": "阳光柠檬红茶中杯",
+  "kcal": 117,
+  "kj": 488,
+  "protein": 0,
+  "fat": 0,
+  "carb": 29,
+  "sodium": 17,
+  "calcium": 0
+ },
+ {
+  "name": "阳光柠檬红茶大杯",
+  "kcal": 178,
+  "kj": 743,
+  "protein": 0,
+  "fat": 0,
+  "carb": 43,
+  "sodium": 25,
+  "calcium": 0
+ },
+ {
+  "name": "阳光柠檬红茶小杯",
+  "kcal": 85,
+  "kj": 354,
+  "protein": 0,
+  "fat": 0,
+  "carb": 19,
+  "sodium": 21,
+  "calcium": 0
+ },
+ {
+  "name": "脆薯饼",
+  "kcal": 146,
+  "kj": 612,
+  "protein": 1,
+  "fat": 9,
+  "carb": 14,
+  "sodium": 311,
+  "calcium": 7
+ },
+ {
+  "name": "脆香油条",
+  "kcal": 202,
+  "kj": 844,
+  "protein": 5,
+  "fat": 12,
+  "carb": 19,
+  "sodium": 230,
+  "calcium": 18
+ },
+ {
+  "name": "100%苹果汁",
+  "kcal": 88,
+  "kj": 368,
+  "protein": 0,
+  "fat": 0,
+  "carb": 21,
+  "sodium": 0,
+  "calcium": 0
+ },
+ {
+  "name": "汉堡包",
+  "kcal": 248,
+  "kj": 1039,
+  "protein": 13,
+  "fat": 8,
+  "carb": 29,
+  "sodium": 492,
+  "calcium": 61
+ },
+ {
+  "name": "麦乐鸡4块",
+  "kcal": 170,
+  "kj": 712,
+  "protein": 10,
+  "fat": 10,
+  "carb": 11,
+  "sodium": 337,
+  "calcium": 7
+ },
+ {
+  "name": "纯悦",
+  "kcal": 0,
+  "kj": 0,
+  "protein": 0,
+  "fat": 0,
+  "carb": 25,
+  "sodium": 0,
+  "calcium": 0
+ },
+ {
+  "name": "苹果片",
+  "kcal": 32,
+  "kj": 133,
+  "protein": 0,
+  "fat": 0,
+  "carb": 7,
+  "sodium": 0,
+  "calcium": 18
+ },
+ {
+  "name": "不素之霸双层牛堡",
+  "kcal": 493,
+  "kj": 2062,
+  "protein": 28,
+  "fat": 27,
+  "carb": 34,
+  "sodium": 1012,
+  "calcium": 75
+ },
+ {
+  "name": "双层深海鳕鱼堡",
+  "kcal": 485,
+  "kj": 2029,
+  "protein": 28,
+  "fat": 21,
+  "carb": 46,
+  "sodium": 917,
+  "calcium": 147
+ },
+ {
+  "name": "儿童鱼排堡",
+  "kcal": 269,
+  "kj": 1126,
+  "protein": 15,
+  "fat": 6,
+  "carb": 36,
+  "sodium": 442,
+  "calcium": 58
+ },
+ {
+  "name": "培根安格斯厚牛堡",
+  "kcal": 707,
+  "kj": 2959,
+  "protein": 34,
+  "fat": 44,
+  "carb": 43,
+  "sodium": 1037,
+  "calcium": 161
+ },
+ {
+  "name": "芝士安格斯厚牛堡",
+  "kcal": 696,
+  "kj": 2914,
+  "protein": 32,
+  "fat": 44,
+  "carb": 43,
+  "sodium": 897,
+  "calcium": 150
+ },
+ {
+  "name": "皮蛋鸡肉粥",
+  "kcal": 133,
+  "kj": 558,
+  "protein": 6,
+  "fat": 3,
+  "carb": 20,
+  "sodium": 611,
+  "calcium": 20
+ },
+ {
+  "name": "雪菜脆笋鸡肉粥",
+  "kcal": 120,
+  "kj": 504,
+  "protein": 2,
+  "fat": 1,
+  "carb": 19,
+  "sodium": 111,
+  "calcium": 14
+ },
+ {
+  "name": "猪柳炒双蛋堡",
+  "kcal": 437,
+  "kj": 1827,
+  "protein": 25,
+  "fat": 21,
+  "carb": 30,
+  "sodium": 705,
+  "calcium": 116
+ },
+ {
+  "name": "柠檬拉明顿",
+  "kcal": 121,
+  "kj": 506,
+  "protein": 2,
+  "fat": 7,
+  "carb": 12,
+  "sodium": 35,
+  "calcium": 17
+ },
+ {
+  "name": "芝士双层安格斯厚牛堡",
+  "kcal": 1003,
+  "kj": 4195,
+  "protein": 58,
+  "fat": 65,
+  "carb": 46,
+  "sodium": 1373,
+  "calcium": 251
+ },
+ {
+  "name": "培根双层安格斯厚牛堡",
+  "kcal": 987,
+  "kj": 4128,
+  "protein": 55,
+  "fat": 64,
+  "carb": 46,
+  "sodium": 1128,
+  "calcium": 226
+ },
+ {
+  "name": "火腿扒早安营养卷",
+  "kcal": 444,
+  "kj": 1857,
+  "protein": 16,
+  "fat": 24,
+  "carb": 39,
+  "sodium": 1065,
+  "calcium": 108
+ },
+ {
+  "name": "麦麦脆汁鸡-琵琶腿",
+  "kcal": 328,
+  "kj": 1372,
+  "protein": 21,
+  "fat": 20,
+  "carb": 16,
+  "sodium": 905,
+  "calcium": 24
+ },
+ {
+  "name": "德式图林根香肠",
+  "kcal": 87,
+  "kj": 366,
+  "protein": 5,
+  "fat": 6,
+  "carb": 2,
+  "sodium": 293,
+  "calcium": 5
+ },
+ {
+  "name": "图林根香肠早安营养卷",
+  "kcal": 438,
+  "kj": 1779,
+  "protein": 25,
+  "fat": 21,
+  "carb": 38,
+  "sodium": 977,
+  "calcium": 68
+ },
+ {
+  "name": "麦麦脆汁鸡-带骨里脊",
+  "kcal": 332,
+  "kj": 1389,
+  "protein": 21,
+  "fat": 20,
+  "carb": 16,
+  "sodium": 812,
+  "calcium": 25
+ },
+ {
+  "name": "优品豆浆大杯",
+  "kcal": 202,
+  "kj": 844,
+  "protein": 8,
+  "fat": 4,
+  "carb": 33,
+  "sodium": 43,
+  "calcium": 21
+ },
+ {
+  "name": "优品豆浆小杯",
+  "kcal": 151,
+  "kj": 633,
+  "protein": 8,
+  "fat": 4,
+  "carb": 33,
+  "sodium": 43,
+  "calcium": 21
+ },
+ {
+  "name": "浓浓黑巧雪冰中杯",
+  "kcal": 359,
+  "kj": 1501,
+  "protein": 8,
+  "fat": 12,
+  "carb": 51,
+  "sodium": 224,
+  "calcium": 207
+ },
+ {
+  "name": "浓浓黑巧雪冰大杯",
+  "kcal": 444,
+  "kj": 1857,
+  "protein": 11,
+  "fat": 14,
+  "carb": 65,
+  "sodium": 258,
+  "calcium": 251
+ },
+ {
+  "name": "特浓奶香雪冰中杯",
+  "kcal": 269,
+  "kj": 1124,
+  "protein": 6,
+  "fat": 11,
+  "carb": 36,
+  "sodium": 180,
+  "calcium": 188
+ },
+ {
+  "name": "特浓奶香雪冰大杯",
+  "kcal": 309,
+  "kj": 1291,
+  "protein": 6,
+  "fat": 11,
+  "carb": 36,
+  "sodium": 213,
+  "calcium": 223
+ },
+ {
+  "name": "浓浓抹茶雪冰中杯",
+  "kcal": 196,
+  "kj": 821,
+  "protein": 4,
+  "fat": 8,
+  "carb": 26,
+  "sodium": 145,
+  "calcium": 207
+ },
+ {
+  "name": "浓浓抹茶雪冰大杯",
+  "kcal": 339,
+  "kj": 1291,
+  "protein": 6,
+  "fat": 11,
+  "carb": 48,
+  "sodium": 270,
+  "calcium": 270
+ },
+ {
+  "name": "热牛奶中杯",
+  "kcal": 176,
+  "kj": 738,
+  "protein": 10,
+  "fat": 8,
+  "carb": 15,
+  "sodium": 101,
+  "calcium": 319
+ },
+ {
+  "name": "冰牛奶中杯",
+  "kcal": 224,
+  "kj": 939,
+  "protein": 10,
+  "fat": 8,
+  "carb": 19,
+  "sodium": 122,
+  "calcium": 406
+ },
+ {
+  "name": "冰美式中杯",
+  "kcal": 13,
+  "kj": 54,
+  "protein": 1,
+  "fat": 0,
+  "carb": 2,
+  "sodium": 0,
+  "calcium": 7
+ },
+ {
+  "name": "冰美式大杯",
+  "kcal": 14,
+  "kj": 60,
+  "protein": 1,
+  "fat": 0,
+  "carb": 8,
+  "sodium": 0,
+  "calcium": 7
+ },
+ {
+  "name": "热美式中杯",
+  "kcal": 13,
+  "kj": 54,
+  "protein": 1,
+  "fat": 0,
+  "carb": 2,
+  "sodium": 0,
+  "calcium": 7
+ },
+ {
+  "name": "热美式大杯",
+  "kcal": 14,
+  "kj": 60,
+  "protein": 1,
+  "fat": 0,
+  "carb": 8,
+  "sodium": 0,
+  "calcium": 7
+ },
+ {
+  "name": "冰焦糖玛奇朵",
+  "kcal": 148,
+  "kj": 618,
+  "protein": 8,
+  "fat": 7,
+  "carb": 13,
+  "sodium": 77,
+  "calcium": 251
+ },
+ {
+  "name": "热焦糖玛奇朵",
+  "kcal": 284,
+  "kj": 698,
+  "protein": 8,
+  "fat": 7,
+  "carb": 13,
+  "sodium": 77,
+  "calcium": 284
+ },
+ {
+  "name": "卡布奇诺中杯",
+  "kcal": 285,
+  "kj": 698,
+  "protein": 11,
+  "fat": 10,
+  "carb": 20,
+  "sodium": 120,
+  "calcium": 385
+ },
+ {
+  "name": "卡布奇诺大杯",
+  "kcal": 313,
+  "kj": 932,
+  "protein": 13,
+  "fat": 10,
+  "carb": 20,
+  "sodium": 120,
+  "calcium": 385
+ },
+ {
+  "name": "冰燕麦奶中杯",
+  "kcal": 199,
+  "kj": 833,
+  "protein": 3,
+  "fat": 5,
+  "carb": 26,
+  "sodium": 145,
+  "calcium": 438
+ },
+ {
+  "name": "冰燕麦奶大杯",
+  "kcal": 239,
+  "kj": 1000,
+  "protein": 3,
+  "fat": 5,
+  "carb": 26,
+  "sodium": 145,
+  "calcium": 525
+ },
+ {
+  "name": "热燕麦奶中杯",
+  "kcal": 157,
+  "kj": 655,
+  "protein": 3,
+  "fat": 5,
+  "carb": 17,
+  "sodium": 270,
+  "calcium": 438
+ },
+ {
+  "name": "热燕麦奶大杯",
+  "kcal": 213,
+  "kj": 893,
+  "protein": 3,
+  "fat": 5,
+  "carb": 17,
+  "sodium": 469,
+  "calcium": 213
+ },
+ {
+  "name": "冰奶铁中杯",
+  "kcal": 148,
+  "kj": 618,
+  "protein": 3,
+  "fat": 5,
+  "carb": 17,
+  "sodium": 251,
+  "calcium": 251
+ },
+ {
+  "name": "冰奶铁大杯",
+  "kcal": 175,
+  "kj": 678,
+  "protein": 3,
+  "fat": 5,
+  "carb": 17,
+  "sodium": 275,
+  "calcium": 275
+ },
+ {
+  "name": "热奶铁中杯",
+  "kcal": 320,
+  "kj": 779,
+  "protein": 10,
+  "fat": 8,
+  "carb": 15,
+  "sodium": 101,
+  "calcium": 320
+ },
+ {
+  "name": "热奶铁大杯",
+  "kcal": 340,
+  "kj": 1040,
+  "protein": 10,
+  "fat": 8,
+  "carb": 15,
+  "sodium": 137,
+  "calcium": 340
+ },
+ {
+  "name": "川宁伯爵红茶",
+  "kcal": 2,
+  "kj": 7,
+  "protein": 0,
+  "fat": 0,
+  "carb": 0,
+  "sodium": 0,
+  "calcium": 5
+ },
+ {
+  "name": "抹茶阿芙佳朵",
+  "kcal": 147,
+  "kj": 613,
+  "protein": 3,
+  "fat": 7,
+  "carb": 23,
+  "sodium": 50,
+  "calcium": 136
+ },
+ {
+  "name": "咖啡阿芙佳朵",
+  "kcal": 139,
+  "kj": 583,
+  "protein": 3,
+  "fat": 7,
+  "carb": 23,
+  "sodium": 50,
+  "calcium": 136
+ },
+ {
+  "name": "草莓拉明顿",
+  "kcal": 142,
+  "kj": 507,
+  "protein": 2,
+  "fat": 8,
+  "carb": 11,
+  "sodium": 35,
+  "calcium": 17
+ },
+ {
+  "name": "原味板烧鸡腿炒双蛋堡",
+  "kcal": 419,
+  "kj": 1754,
+  "protein": 27,
+  "fat": 21,
+  "carb": 30,
+  "sodium": 715,
+  "calcium": 116
+ },
+ {
+  "name": "双层猪柳蛋麦满分",
+  "kcal": 513,
+  "kj": 2148,
+  "protein": 29,
+  "fat": 32,
+  "carb": 26,
+  "sodium": 1210,
+  "calcium": 249
+ },
+ {
+  "name": "双层火腿扒麦满分",
+  "kcal": 385,
+  "kj": 1611,
+  "protein": 21,
+  "fat": 22,
+  "carb": 31,
+  "sodium": 979,
+  "calcium": 131
+ },
+ {
+  "name": "脆脆薯条",
+  "kcal": 279,
+  "kj": 1168,
+  "protein": 4,
+  "fat": 14,
+  "carb": 32,
+  "sodium": 540,
+  "calcium": 13
+ },
+ {
+  "name": "麦麦趣鸡球",
+  "kcal": 266,
+  "kj": 1113,
+  "protein": 17,
+  "fat": 13,
+  "carb": 19,
+  "sodium": 789,
+  "calcium": 13
+ },
+ {
+  "name": "酥酥多笋卷",
+  "kcal": 342,
+  "kj": 1431,
+  "protein": 17,
+  "fat": 21,
+  "carb": 31,
+  "sodium": 1041,
+  "calcium": 41
+ },
+ {
+  "name": "薄皮焦香V翅",
+  "kcal": 194,
+  "kj": 804,
+  "protein": 17,
+  "fat": 11,
+  "carb": 6,
+  "sodium": 594,
+  "calcium": 15
+ },
+ {
+  "name": "蜜汁BBQ风味薄皮脆汁鸡-带骨里脊",
+  "kcal": 148,
+  "kj": 637,
+  "protein": 20,
+  "fat": 5,
+  "carb": 6,
+  "sodium": 635,
+  "calcium": 28
+ },
+ {
+  "name": "蜜汁BBQ风味薄皮脆汁鸡-琵琶腿",
+  "kcal": 174,
+  "kj": 724,
+  "protein": 20,
+  "fat": 5,
+  "carb": 6,
+  "sodium": 635,
+  "calcium": 28
+ },
+ {
+  "name": "果然多肉",
+  "kcal": 478,
+  "kj": 2001,
+  "protein": 36,
+  "fat": 17,
+  "carb": 44,
+  "sodium": 1343,
+  "calcium": 190
+ },
+ {
+  "name": "牛气满满",
+  "kcal": 495,
+  "kj": 2073,
+  "protein": 26,
+  "fat": 24,
+  "carb": 42,
+  "sodium": 764,
+  "calcium": 79
+ },
+ {
+  "name": "蜜汁快乐",
+  "kcal": 258,
+  "kj": 1081,
+  "protein": 22,
+  "fat": 9,
+  "carb": 20,
+  "sodium": 721,
+  "calcium": 34
+ },
+ {
+  "name": "迷你朱古力新地",
+  "kcal": 140,
+  "kj": 586,
+  "protein": 2,
+  "fat": 2,
+  "carb": 22,
+  "sodium": 63,
+  "calcium": 90
+ },
+ {
+  "name": "迷你草莓新地",
+  "kcal": 141,
+  "kj": 511,
+  "protein": 2,
+  "fat": 2,
+  "carb": 21,
+  "sodium": 84,
+  "calcium": 158
+ },
+ {
+  "name": "鲜蔬蛋沙拉叠叠卷",
+  "kcal": 266,
+  "kj": 1114,
+  "protein": 4,
+  "fat": 4,
+  "carb": 24,
+  "sodium": 518,
+  "calcium": 62
+ },
+ {
+  "name": "鸡肉蛋沙拉叠叠卷",
+  "kcal": 387,
+  "kj": 1621,
+  "protein": 17,
+  "fat": 21,
+  "carb": 31,
+  "sodium": 842,
+  "calcium": 67
+ },
+ {
+  "name": "中杯怡泉+C",
+  "kcal": 110,
+  "kj": 461,
+  "protein": 0,
+  "fat": 0,
+  "carb": 27,
+  "sodium": 0,
+  "calcium": 0
+ },
+ {
+  "name": "大杯怡泉+C",
+  "kcal": 141,
+  "kj": 701,
+  "protein": 0,
+  "fat": 0,
+  "carb": 41,
+  "sodium": 0,
+  "calcium": 0
+ },
+ {
+  "name": "蒜了吧黄油风味薄皮脆汁鸡-琵琶腿",
+  "kcal": 164,
+  "kj": 688,
+  "protein": 19,
+  "fat": 6,
+  "carb": 6,
+  "sodium": 867,
+  "calcium": 9
+ },
+ {
+  "name": "蒜了吧黄油风味薄皮脆汁鸡-带骨里脊",
+  "kcal": 126,
+  "kj": 526,
+  "protein": 19,
+  "fat": 2,
+  "carb": 6,
+  "sodium": 759,
+  "calcium": 59
+ },
+ {
+  "name": "柠萌风味薄皮焦香V翅",
+  "kcal": 205,
+  "kj": 855,
+  "protein": 17,
+  "fat": 11,
+  "carb": 6,
+  "sodium": 594,
+  "calcium": 15
+ }
+]

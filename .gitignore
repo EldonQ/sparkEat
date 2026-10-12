@@ -1,0 +1,12 @@
+node_modules/
+*.log
+.DS_Store
+dist/
+out/
+.env
+.env.*
+!.env.example
+data-raw.json
+yearbook.html
+
+.workbuddy/

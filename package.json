@@ -1,0 +1,31 @@
+{
+  "name": "mcd-yearbook",
+  "version": "1.0.0",
+  "description": "麦门年鉴 — 基于麦当劳中国 MCP 的个人年度饮食报告生成器",
+  "type": "module",
+  "bin": {
+    "mcd-yearbook": "bin/mcd-yearbook.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "demo": "node bin/mcd-yearbook.mjs --demo --open-hint",
+    "fixture": "node scripts/make-fixture.mjs",
+    "test": "node test/smoke.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EldonQ/sparkEat"
+  },
+  "keywords": [
+    "mcdonalds",
+    "mcp",
+    "yearbook",
+    "report",
+    "echarts",
+    "workbuddy"
+  ],
+  "author": "EldonQ",
+  "license": "MIT"
+}
